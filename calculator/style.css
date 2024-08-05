@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(147, 139, 139);
+}
+
+#container {
+    background-color: rgb(40, 35, 35);
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#terms {
+    color: white;
+    font-size: 50px;
+    background-color: rgb(57, 54, 54);
+    padding:  5px 20px;
+    margin: 0px;
+    border: none;
+    height: 20%;
+}
+
+/* .rows {
+    margin: 5px 24px;
+} */
+.operationBtns{
+    background-color: rgb(228, 142, 13);
+}
+
+.operationBtns:hover{
+    background-color: rgb(169, 107, 13);
+}
+.operationBtns:active{
+    background-color: rgb(237, 158, 39);
+}
+
+.btns{
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.otherBtns{
+    background-color: rgb(57, 54, 54);
+}
+
+.otherBtns:hover{
+    background-color: rgb(50, 45, 45);
+}
+.otherBtns:active{
+    background-color: rgb(74, 71, 71);
+}
+
+#buttonsContainer{
+    border: 2px solid white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

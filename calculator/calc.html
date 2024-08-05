@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input id="terms" readonly>
+        <div id="buttonsContainer">
+            <div id="firstRow" class="rows">
+                <button id="addBtn" onclick="appendToDisplay(`+`)" class="btns operationBtns" >+</button>
+                <button id="sevenBtn" class="btns otherBtns" onclick="appendToDisplay(`7`)">7</button>
+                <button id="eightBtn" class="btns  otherBtns" onclick="appendToDisplay(`8`)">8</button>
+                <button id="nineBtn" class="btns  otherBtns" onclick="appendToDisplay(`9`)">9</button>
+            </div>
+            <div id="secondRow"  class="rows">
+                <button id="subtractBtn" onclick="appendToDisplay(`-`)" class="btns operationBtns">-</button>
+                <button id="fourBtn" class="btns otherBtns" onclick="appendToDisplay(`4`)">4</button>
+                <button id="fiveBtn" class="btns otherBtns" onclick="appendToDisplay(`5`)">5</button>
+                <button id="sixBtn" class="btns otherBtns" onclick="appendToDisplay(`6`)">6</button>
+            </div>
+            <div id="thirdRow" class="rows">
+                <button id="multiplyBtn" onclick="appendToDisplay(`*`)" class="btns operationBtns">*</button>
+                <button id="oneBtn" onclick="appendToDisplay(`1`)" class="btns otherBtns">1</button>
+                <button id="twoBtn" onclick="appendToDisplay(`2`)" class="btns otherBtns">2</button>
+                <button id="threeBtn" onclick="appendToDisplay(`3`)" class="btns otherBtns">3</button>
+            </div>
+            <div id="fourthRow" class="rows">
+                <button id="divideBtn" onclick="appendToDisplay(`/`)" class="btns operationBtns">/</button>
+                <button id="zeroBtn" onclick="appendToDisplay(`0`)" class="btns otherBtns">0</button>
+                <button id="periodBtn" onclick="appendToDisplay(`.`)" class="btns otherBtns">.</button>
+                <button id="equalBtn" onclick="evaluateDisplay()" class="btns operationBtns">=</button>
+            </div>
+            <div id="fifth row" class="rows">
+                <button id="clearBtn" onclick="clearDisplay()" class="btns operationBtns">C</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

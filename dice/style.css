@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(41, 9, 70);
+}
+
+#container {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(209, 188, 228);
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    font-size: 1rem;
+    color: aliceblue;
+    background-color: rgb(132, 132, 193);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background-color 1.25s; */
+}
+
+button:hover {
+    background-color: rgb(56, 56, 181);
+}
+
+input {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#result {
+    background-color: rgb(61, 34, 86);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 15px;
+    margin: 10px auto;
+    padding: 2px;
+}
+
+#diceImages img{
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+}
